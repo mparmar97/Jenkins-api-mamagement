@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "controller": "^1.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "hudson": "0.0.0",
+    "jenkins": "^0.28.1",
+    "prompt-sync": "^4.2.0",
+    "router": "^1.3.5",
+    "send": "^0.17.1",
+    "xmlpoke": "^0.1.16"
+  },
+  "devDependencies": {
+    "xml2js": "^0.4.23"
+  }
+}

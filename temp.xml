@@ -1,0 +1,34 @@
+<project>
+<actions/>
+<description/>
+<keepDependencies>false</keepDependencies>
+<properties/>
+<scm class="hudson.plugins.git.GitSCM" plugin="git@4.4.0">
+<configVersion>2</configVersion>
+<userRemoteConfigs>
+<hudson.plugins.git.UserRemoteConfig>
+<url>https://github.com/Manasi980/Hello.git</url>
+<credentialsId>fc8f05f6-8827-4807-beb5-76cf755b7446</credentialsId>
+</hudson.plugins.git.UserRemoteConfig>
+</userRemoteConfigs>
+<branches>
+<hudson.plugins.git.BranchSpec>
+<name>*/master</name>
+</hudson.plugins.git.BranchSpec>
+</branches>
+<doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+<submoduleCfg class="list"/>
+<extensions/>
+</scm>
+<canRoam>true</canRoam>
+<disabled>false</disabled>
+<blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+<blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+<triggers/>
+<concurrentBuild>false</concurrentBuild>
+<builders>
+
+<hudson.tasks.BatchFile><command>javac Hello.java</command></hudson.tasks.BatchFile><hudson.tasks.BatchFile><command>java Hello</command></hudson.tasks.BatchFile></builders>
+<publishers/>
+<buildWrappers/>
+</project>
